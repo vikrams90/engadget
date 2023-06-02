@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    background-image: url(./photo/main.jpg);
+    background-size: cover;
+    background-position: center;
+    /* width: ; */
+    /* height: 100vh; */
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+  
+    width: 69%;
+    /* height: 100%; */
+    /* background-color: blue; */
+}
+.right{
+    width: 34%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+    margin-top: 25%;
+    height: 25px;
+}
+.sgn{
+    margin-top: 50px;
+    font-size: 21px;
+    font-weight: 700 ;
+}
+form{
+    margin-top: 90px;
+    /* padding-top: 70px; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin-bottom: 25px;
+    height: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(220, 220, 220);
+    padding-left: 10px;
+}
+form button{
+    height: 40px;
+    background-color: #39c;
+    border-radius: 2px;
+    border-color: #39c;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.ss{
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+    color: #39c;
+    font-size: 14px;
+}
+.ss a{
+ /* padding-left: 110px; */
+ color: #39c;
+ text-decoration: none;
+}
+.ca{
+    margin-top: 20px;
+    min-height: 40px;
+    width: 70%;
+    background-color: white;
+    border: solid 1px;
+    border-color: #39c;
+    color: #39c;
+}
+.cap{
+    margin-top: 20px;
+    font-size: 14px;
+ 
+}
+.foot{
+   margin-top: 50px;
+   padding-top: 30px;
+   color: #39c;
+   font-size: 12px;
+
+}
+.foot a{
+    color: #39c;
+    text-decoration: none;
+}
+
+.cag{
+    margin-top: 20px;
+    min-height: 40px;
+    width: 70%;
+    background: none;
+    border: solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(185, 185, 185);
+}
+.lg{
+    height: 25px;
+    margin-right: 5px;
+}
+@media(max-width:768px){
+   .main{
+       background: none;}
+.left{
+    display: none;
+}
+.right{
+    width: 100%;
+}
+}
